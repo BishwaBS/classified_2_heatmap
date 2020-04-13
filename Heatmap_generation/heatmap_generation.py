@@ -9,6 +9,7 @@ def classify_2_heatmap (classified_imgpath, class_of_interest, gridsize, eqn, eq
     from sklearn.preprocessing import MinMaxScaler
     import re
     import os
+    
     #assigning variables to some of the the user-fed parameters
     n=int(gridsize)
     classid=class_of_interest
@@ -147,4 +148,4 @@ def classify_2_heatmap (classified_imgpath, class_of_interest, gridsize, eqn, eq
     
 
 
-#classify_2_heatmap ("..\test.jpg", 1, 10, "y=3.4*x+24" , "simple_linear", "True", "..\output_folder")
+#classify_2_heatmap ("..test\classified_image.jpg", 1, 10, "y=3.4*x+24" , "simple_linear", "True", "..test\output_folder")
