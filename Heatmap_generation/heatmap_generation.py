@@ -144,7 +144,7 @@ def classify_2_heatmap (classified_imgpath, class_of_interest, gridsize, eqn, eq
         fig3.savefig(savemappath3)
         print("The map is saved successfully")
 
-    #
+    
 
 
-classify_2_heatmap (r"J:\Research\Wheat_Ryegrass_Project\Python_Coding\test.jpg", 1, 10, "y=3.4*x+24" , "simple_linear", "True", r"J:\Research\Wheat_Ryegrass_Project\Python_Coding")
+#classify_2_heatmap ("..\test.jpg", 1, 10, "y=3.4*x+24" , "simple_linear", "True", "..\output_folder")
